@@ -19,16 +19,20 @@
     <main>
         <div class="principal">
             <div class="container">
-                <h3 class="titulo">O PARAÍSO ESTÁ EM OFERTA!</h3>
+
+                <h3 class="titulo">Momentos incríveis estão por <span class="red">vir</span>.</h3>
+                <h3 class="titulo">Mas a oferta expira em <span class="red" id="timer"></span></h3>
+                <h3 class="titulo">Você está <span class="red">pronto</span>?</h3>
+
                 <p class="descricao">
-                    Cadastre seu e-mail para receber nosso informativo e com todos os detalhes de como nosso resort está preparado para te oferecer dias inesquecíveis!
+                    Cadastre seu e-mail AGORA.
                 </p>
             </div>
 
             <div>
                 <form id="form">
                     <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="your-name@email.com" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
                     <input type="submit" value="Enviar" id="submit" onclick="store()">
                 </form>
             </div>
