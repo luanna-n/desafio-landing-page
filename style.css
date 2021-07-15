@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(80, 78, 78);
+}
+
+.principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)100%), url('img/pexels-asad-photo-maldives-1450360.jpg');
+    min-height: 630px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.principal .titulo {
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.principal .container {
+    width: 70%;
+}
+
+#form {
+    padding: 20px;
+}
+
+#email,
+#submit {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: solid rgba(0, 0, 0, 0.2) 2px;
+    font-weight: bold;
+}
+
+#submit {
+    cursor: pointer;
+    margin-left: 10px;
+    color: white;
+}
+
+#submit,
+ ::placeholder {
+    text-shadow: 2px 2px 2px rgb(80, 78, 78);
+}
+
+#email:hover,
+#submit:hover {
+    background-color: transparent;
+    text-shadow: 1px 1px 1px white;
+}
+
+#email:hover {
+    font-weight: bold;
+}
+
+#submit:hover {
+    color: black;
+}
+
+::placeholder {
+    color: white;
+}
